@@ -1,0 +1,211 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 96px;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    align-items: flex-start;
+  }
+}
+
+.home-mobile-img {
+  width: 206px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+}
+
+.home-desktop-img {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 85px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-desktop-img {
+    display: none;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 36px;
+  color: #1e293b;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 46px;
+    text-align: left;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  margin-top: 36px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #64748b;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.board-heading {
+  font-size: 30px;
+}
+
+@media screen and (min-height: 768px) {
+  .board-side-container {
+    display: none;
+  }
+}
+.board-side-container {
+  background-color: yellow;
+  height: 105vh;
+  margin-right: 10px;
+  width: 10vw;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 18px;
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+.shop-now-button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
+
+.app-container {
+  display: flex;
+  /* justify-content: center; */
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 450px;
+}
+
+.board-heading {
+  text-align: center;
+}
+
+.performance-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 1110px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-heading {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.loading-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+  margin: 10px;
+}
+
+.failure-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
+}
+.vaccination-container {
+  margin-top: 100 px;
+}

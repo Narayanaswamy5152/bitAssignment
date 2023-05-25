@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.performance-by-age-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c2b;
+  padding: 20px;
+
+  margin-bottom: 20px;
+}
+
+.performance-by-age-heading {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.performance-by-age-paragraph {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 100px;
+}
