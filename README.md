@@ -4,7 +4,8 @@ In this project, let's build a **Nxt Trendz - Specific Product Details** app by 
 
 <br/>
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-output-v0.gif" alt="product details output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <iframe src="https://drive.google.com/uc?export=embed&id=1dc-PFqxUmEJmOISJMcRCnzITRtGSbJys" width="640" height="480" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 </div>
 <br/>
 
