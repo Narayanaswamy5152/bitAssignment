@@ -18,7 +18,7 @@ const apiStatusConstants = {
 class Home extends Component {
   state = {
     apiStatus: apiStatusConstants.initial,
-    vaccinationData: {performanceByAge: {age: 55, count: 100}},
+    vaccinationData: {},
   }
 
   componentDidMount() {
@@ -117,6 +117,7 @@ class Home extends Component {
       <div className="app-container">
         <div className="performance-dashboard-container">
           <Header />
+
           <div className="board-container">
             <div className="board-side-container">
               <h1 className="board-heading">DASH BOARD</h1>

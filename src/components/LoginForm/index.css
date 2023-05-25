@@ -22,31 +22,28 @@
   margin-bottom: 35px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 992px) {
   .login-website-logo-mobile-image {
     display: none;
   }
 }
 
 .login-image {
-  width: 100px;
-}
-
-.input-heading {
-  font-family: 'Roboto';
+  width: 278px;
 }
 
 @media screen and (min-width: 992px) {
   .login-image {
-    width: 50%;
+    width: 60%;
     max-width: 524px;
     flex-shrink: 1;
     margin-right: 20px;
+    display: none;
   }
 }
 
 .login-website-logo-desktop-image {
-  width: 150px;
+  width: 185px;
 }
 
 @media screen and (max-width: 991px) {

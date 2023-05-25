@@ -127,7 +127,7 @@
 
 .app-container {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   background-color: whitesmoke;
   min-height: 100vh;
 }
