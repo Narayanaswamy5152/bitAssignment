@@ -1,6 +1,6 @@
-In this project, let's build a **Nxt Trendz - Specific Product Details** app by applying the concepts we have learned till now.
+In this project, I build a **Beyond Imagination Technology Assignment** app by applying the concepts I have learned till now.
 
-### Refer to the image below:
+### Refer to the video below:
 
 <br/>
 <div style="text-align: center;">
@@ -27,7 +27,7 @@ In this project, let's build a **Nxt Trendz - Specific Product Details** app by 
 
 The app must have the following functionalities
 
-- When an unauthenticated user, tries to access the Product Item Details Route, then the page should be navigated to Login Route
+- When an unauthenticated user, then the page should be navigated to Login Route
 
 
 </details>
@@ -74,22 +74,7 @@ Use these files to complete the implementation:
 
 </details>
 
-### Quick Tips
 
-<details close>
-<summary>Click to view</summary>
-<br>
-
-- The `line-height` CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.
-
-  ```
-  line-height: 1.5;
-  ```
-
-    <br/>
-    <img src="https://assets.ccbp.in/frontend/react-js/line-height-img.png" alt="cursor pointer" style="width:90%; max-width: 600px;"/>
-
-</details>
 
 ### Important Note
 
@@ -103,10 +88,6 @@ Use these files to complete the implementation:
   ```
 
 
-  ```
-   username: raja
-   password: raja@2021
-  ```
 
 - Wrap the Loader component with an HTML container element and add the `data-testid` attribute value as `loader` to it
 
